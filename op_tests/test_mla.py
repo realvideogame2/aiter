@@ -571,7 +571,7 @@ parser.add_argument(
     "-n",
     "--nhead",
     type=dtypes.str2tuple,
-    choices=[(16, 1), (16, 2), (16, 4), (128, 1), (128, 2)],
+    choices=[(16, 1), (16, 2), (16, 4), (128, 1), (128, 2), (128, 4)],
     nargs="*",
     const=None,
     default=[(16, 1), (16, 2), (16, 4), (128, 1), (128, 2)],
